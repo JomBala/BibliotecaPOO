@@ -1,44 +1,30 @@
-Sistema de Biblioteca – POO
+📚 Sistema de Biblioteca 
 
-Este projeto foi desenvolvido como atividade prática da disciplina de Programação Orientada a Objetos (POO).
-O objetivo é simular o funcionamento básico de uma biblioteca, permitindo cadastrar, listar e pesquisar livros.
+Projeto desenvolvido como atividade da disciplina de Programação Orientada a Objetos (POO).
+O sistema simula o funcionamento básico de uma biblioteca, permitindo cadastrar, listar e pesquisar livros.
 
-Funcionalidades
+✨ Funcionalidades
 
-Adicionar livro físico
+➕ Adicionar livro físico
+💻 Adicionar livro digital
+📖 Listar todo o acervo
+🔍 Pesquisar livro por título ou autor
+❌ Remover livro (por índice)
+✏️ Atualizar informações de um livro
+🔢 Contar quantidade de livros cadastrados
+📅 Pesquisar por intervalo de anos
+🏆 Mostrar o livro mais antigo e o mais novo
+🛠 Estrutura do Projeto
 
-Adicionar livro digital
+📂 Biblioteca.java → Gerencia o acervo e as regras de negócio
+📂 Livro.java → Classe abstrata base para os livros
+📂 LivroFisico.java → Representa livros físicos
+📂 LivroDigital.java → Representa livros digitais
+📂 Input.java → Auxilia na leitura e validação de dados
+📂 Main.java → Contém o menu e a execução do sistema
 
-Listar todo o acervo
+💻 Tecnologias
 
-Pesquisar livro por título
-
-Pesquisar livro por autor
-
-Remover livro (por índice)
-
-Atualizar informações de um livro
-
-Contar livros cadastrados
-
-Estrutura do Projeto
-
-Biblioteca.java → Classe principal de gerenciamento do acervo
-
-Livro.java → Classe base para os livros
-
-LivroFisico.java → Subclasse representando livros físicos
-
-LivroDigital.java → Subclasse representando livros digitais
-
-Input.java → Auxilia na leitura de dados do usuário
-
-Main.java → Contém o menu e a execução do sistema
-
-Tecnologias
-
-Linguagem: Java
-
-Paradigma: Programação Orientada a Objetos
-
-Main → Classe principal que contém o menu interativo
+☕ Java
+🧩 Paradigma: Programação Orientada a Objetos
+📌 Conceitos aplicados: abstração, encapsulamento, herança, polimorfismo, classes abstratas e finais
