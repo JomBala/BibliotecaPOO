@@ -1,35 +1,44 @@
-📚 Sistema de Biblioteca em Java
+Sistema de Biblioteca – POO
 
-Este projeto é um sistema de gerenciamento de biblioteca desenvolvido em Java, como parte da disciplina de Organização e Abstração de Programação Orientada a Objetos.
+Este projeto foi desenvolvido como atividade prática da disciplina de Programação Orientada a Objetos (POO).
+O objetivo é simular o funcionamento básico de uma biblioteca, permitindo cadastrar, listar e pesquisar livros.
 
-O objetivo é aplicar conceitos de classes abstratas, herança, polimorfismo e encapsulamento, além de implementar todas as funcionalidades trabalhadas em sala de aula, incluindo o desafio da Aula 07.
+Funcionalidades
 
-✨ Funcionalidades Implementadas
+Adicionar livro físico
 
-✅ Cadastro de livros físicos e livros digitais
+Adicionar livro digital
 
-✅ Listagem de todos os livros do acervo
+Listar todo o acervo
 
-✅ Pesquisa por título e por autor
+Pesquisar livro por título
 
-✅ Atualização e remoção de livros por índice
+Pesquisar livro por autor
 
-✅ Contagem do total de livros cadastrados
+Remover livro (por índice)
 
-✅ Validação de duplicidade de títulos
+Atualizar informações de um livro
 
-✅ Pesquisa de livros por intervalo de anos
+Contar livros cadastrados
 
-✅ Exibição do livro mais antigo e do mais novo
+Estrutura do Projeto
 
-🛠 Estrutura do Projeto
+Biblioteca.java → Classe principal de gerenciamento do acervo
 
-Livro → Classe abstrata com atributos e métodos comuns
+Livro.java → Classe base para os livros
 
-LivroFisico e LivroDigital → Classes finais que herdam de Livro
+LivroFisico.java → Subclasse representando livros físicos
 
-Biblioteca → Responsável por gerenciar o acervo
+LivroDigital.java → Subclasse representando livros digitais
 
-Input → Classe auxiliar para entrada de dados com validação
+Input.java → Auxilia na leitura de dados do usuário
+
+Main.java → Contém o menu e a execução do sistema
+
+Tecnologias
+
+Linguagem: Java
+
+Paradigma: Programação Orientada a Objetos
 
 Main → Classe principal que contém o menu interativo
